@@ -1,19 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello Rails backend
 
-> Description the project.
+> This exercise is about creating a "Hello World" application to display a random message. The back-end is built with Rails and the front-end with React.
+
+## Hello react frontend
+
+- Here is the link of react frontend: [React app](https://github.com/ArnaudBand/hello_react_front_end)
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
+- Ruby on rails
+- Rails api
+- Postgresql
 
 
 ## Getting Started
@@ -26,31 +27,43 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Ruby ruby-3.1.2 installed
+- PostgreSQL dbms running
+
 ### Setup
 
-### Install
+- Open your terminal and navigate to the folder you would like to save the project.
 
-### Usage
+- Type these commands into the terminal:
 
-### Run tests
+`
+- git clone https://github.com/ArnaudBand/Hello_rails_backend.git
+- cd Hello_rails_backend
+- bundle install
+`
 
-### Deployment
+- Run this command to reset a database:
 
+`
+- rails db:create
+- rails db:reset
+`
 
+### Run application 
 
-## Authors
+- Run this command in the terminal:
+`
+- rails sever
+`
+
+## Author
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/ArnaudBand)
+- Twitter: [@twitterhandle](https://twitter.com/@ba104781)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ArnaudBandonkeye)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
